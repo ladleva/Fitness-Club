@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Fitness Club</title>
+    <link href="./src/styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="home" id="home">
+        <div class="header">
+            <a href="#"><img src="https://seeklogo.com/images/F/fitness-gym-logo-9191CD4CF2-seeklogo.com.png" /></a>
+            <div class="navigation">
+                <input type="checkbox" name="">
+                <span></span>
+                <span></span>
+                <span class="none"></span>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <h1><span class="blue">BUILD </span>YOUR BODY<br><span class="blue"> TRANSFORM</span> YOUR LIFE</h1>
+            <p>Curabitur ac volutpat odio. Nunc eget eros viverra, laoreet ligula eget, interdum augue. Pellentesque ornare mauris a hendrerit imperdiet.</p>
+            <div class="button">
+                <a class="btn" href="#">
+                    <span>Get Started</span>
+                </a>
+                <a class="btn" href="#">
+                    <span>Learn More</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="text">
+            <h4 class="blue">About ShapeUp</h4>
+            <h1>WELCOME TO HEALTHY LIFE</h1>
+            <br>
+            <hr class="hr1">
+            <h6>Nunc euismod ante at purus elementum porttitor. Ut nisi nisl, auctor et imperdiet quis risus.</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas est porttitor, malesuada tellus aliquet, vehicula ipsum. Suspendisse porttitor sed dolor ac vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Morbi iaculis tellus vestibulum est accumsan commodo. Curabitur sollicitudin, eros vitae vulputate euismod, nibh tortor accumsan tellus, fringilla hendrerit ligula eros nec velit.</p>
+            <a class="pinkA" href="#">Learn More</a>
+        </div>
+        <div class="sliders">
+            <div class="images">
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80">
+                </div>
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1623199648374-a4ff4e14e719?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80">
+                </div>
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1434754205268-ad3b5f549b11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80">
+                </div>
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+                <div class="image fade">
+                    <img src="https://images.unsplash.com/photo-1593204075264-0b7994458bf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div class="dotClass">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="trainers">
+        <div class="head">
+            <h4 class="blue">Meet</h4>
+            <h1>OUR TRAINERS</h1>
+            <br>
+            <hr class="hr">
+            <br><br>
+        </div>
+        <div class="trainers">
+            <div class="trainer">
+                <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 " />
+                <div class="overlay">
+                    <div class="trainerText">
+                        <h4>Letty Adams</h4>
+                        <p>Fitness trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trainer">
+                <img src="https://images.unsplash.com/photo-1528720208104-3d9bd03cc9d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
+                <div class="overlay">
+                    <div class="trainerText">
+                        <h4>Jonny Step</h4>
+                        <p>Personal trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trainer">
+                <img src="https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 " />
+                <div class="overlay">
+                    <div class="trainerText">
+                        <h4>Brooks Shell</h4>
+                        <p>Body shape trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trainer">
+                <img src="https://images.unsplash.com/photo-1586323289103-e309634e2a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 " />
+                <div class="overlay">
+                    <div class="trainerText">
+                        <h4>Merry Djames</h4>
+                        <p>Fitness trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trainer">
+                <img src="https://images.unsplash.com/photo-1604480133435-25b86862d276?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 " />
+                <div class="overlay">
+                    <div class="trainerText">
+                        <h4>Bob Adams</h4>
+                        <p>Body building trainer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="programs" id="programs">
+        <div class="programsText">
+            <h4 class="blue ">Choose</h4>
+            <h1>OUR PROGRAMS</h1>
+            <br>
+            <hr class="hr">
+            <br><br>
+        </div>
+        <div class="programsBox">
+            <div class="program">
+                <img src="https://ru.seaicons.com/wp-content/uploads/2015/10/gym-icon.png" />
+                <h5>Body Building Programs</h5>
+                <p>Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis.</p>
+                <div class="button buttonProgram">
+                    <a class="btn" href="#">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
+            <div class="program">
+                <img src="https://ru.seaicons.com/wp-content/uploads/2015/10/gym-icon.png" />
+                <h5>Body Building Programs</h5>
+                <p>Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis.</p>
+                <div class="button buttonProgram">
+                    <a class="btn" href="#">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
+            <div class="program">
+                <img src="https://ru.seaicons.com/wp-content/uploads/2015/10/gym-icon.png" />
+                <h5>Body Building Programs</h5>
+                <p>Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis.</p>
+                <div class="button buttonProgram">
+                    <a class="btn" href="#">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews" id="reviews">
+        <div class="reviewsText">
+            <h4 class="blue">Reviews</h4>
+            <h1>WHAT OUR CLIENTS SAY</h1>
+            <br>
+            <hr class="hr">
+            <br><br>
+        </div>
+        <div class="reviewsBox">
+            <div class="review">
+                <img src="https://static01.nyt.com/images/2019/11/17/books/review/17Salam/Salam1-superJumbo.jpg" />
+                <div class="reviewText">
+                    <h4 class="blue">Mary</h4>
+                    <p><strong>Writer</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+            <div class="review">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Woman_1.jpg/768px-Woman_1.jpg" />
+                <div class="reviewText">
+                    <h4 class="blue ">Rebecca</h4>
+                    <p><strong>Student</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+            <div class="review">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaRgUovY-z3cnWrOM3ApIh1VQfxkA6Dt76eNlbNqmlwQuARKewBG6P50yDgrGO1RGSRo&usqp=CAU" />
+                <div class="reviewText">
+                    <h4 class="blue">Jackson</h4>
+                    <p><strong>Doctor</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+            <div class="review">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvrfmNG-L5kSJa8NoruiH7bpiIMDHGa0_tQ&usqp=CAU" />
+                <div class="reviewText">
+                    <h4 class="blue">Adel</h4>
+                    <p><strong>Programmer</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+            <div class="review">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Woman_1.jpg/768px-Woman_1.jpg" />
+                <div class="reviewText">
+                    <h4 class="blue">Magnus</h4>
+                    <p><strong>Model</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+            <div class="review">
+                <img src="https://static01.nyt.com/images/2019/11/17/books/review/17Salam/Salam1-superJumbo.jpg" />
+                <div class="reviewText">
+                    <h4 class="blue">Rebecca</h4>
+                    <p><strong>Social Worker</strong><br><br>"Sed augue enim, lacinia non dui ut, mollis vulputate felis. Vivamus consequat bibendum ullamcorper. Donec sed nibh aliquet odio efficitur sagittis."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="price" id="price">
+        <div class="priceText">
+            <h4 class="blue">Pricing Table</h4>
+            <h1>OUR MEMBERSHIP PLANS</h1>
+            <br>
+            <hr class="hr">
+            <br><br>
+        </div>
+        <div class="priceBox">
+            <div class="priceVar">
+                <h2>$10/Day</h2>
+                <h5 class="bright">One Day Training</h5>
+                <p>Access to all clubs Training in group or alone Dedicated trainer available Access to one 1 hour fitness class Access to spa center (Book Separately)</p>
+                <div class="button buttonPrice">
+                    <a class="btn" href="#">
+                        <span>Book Now</span>
+                    </a>
+                </div>
+            </div>
+            <div class="priceVar">
+                <h2>$49/month</h2>
+                <h5 class="bright">One Year Subscription</h5>
+                <p>Access to all clubs Training in group or alone Dedicated trainer available Access to one 1 hour fitness class Access to spa center (Book Separately)</p>
+                <div class="button buttonPrice">
+                    <a class="btn" href="#">
+                        <span>Book Now</span>
+                    </a>
+                </div>
+            </div>
+            <div class="priceVar">
+                <h2>$65/month</h2>
+                <h5 class="bright">One Month Sybscription</h5>
+                <p>Access to all clubs Training in group or alone Dedicated trainer available Access to one all fitness class Access to spa center (Book Separately)</p>
+                <div class="button buttonPrice">
+                    <a class="btn" href="#">
+                        <span>Book Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog" id="blog">
+        <div class="blogText">
+            <h4 class="blue">Blog</h4>
+            <h1>OUR LATEST NEWS</h1>
+            <br>
+            <hr class="hr">
+            <br><br>
+        </div>
+        <div class="blogBox">
+            <div class="blogPost">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80 " />
+                <p class="p">Body Fitness</p>
+                <h6>Start your push-ups today and see results.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare ut dui sed facilisis. Aliquam eu nunc orci. Aliquam eleifend in lorem nec mollis.</p>
+                <h4 class="blue">1d | Kevin Smith 138💜</h4>
+            </div>
+            <div class="blogPost">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80 " />
+                <p class="p">Exersize</p>
+                <h6>Are you commited enough for better body ?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare ut dui sed facilisis. Aliquam eu nunc orci. Aliquam eleifend in lorem nec mollis.</p>
+                <h4 class="blue">2d | Md Mizanur Rahman 149💜</h4>
+            </div>
+            <div class="blogPost">
+                <img src="https://images.unsplash.com/photo-1591311630200-ffa9120a540f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=810&q=80 " />
+                <p class="p">Fitness Club</p>
+                <h6>Why working out is good for you ?</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare ut dui sed facilisis. Aliquam eu nunc orci. Aliquam eleifend in lorem nec mollis.</p>
+                <h4 class="blue">2d | Nazratun Nayeem 99💜</h4>
+            </div>
+            <div class="blogPost">
+                <img src="https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80 " />
+                <p class="p">Training</p>
+                <h6>Liftings things do make a difference.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare ut dui sed facilisis. Aliquam eu nunc orci. Aliquam eleifend in lorem nec mollis.</p>
+                <h4 class="blue">3d | Marry Poppins 104💜</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+        <div class="phone">
+            <div class="phoneText">
+                <h4 class="blue">Call Us Today</h4>
+                <h1>+1 957 652 1268</h1>
+                <br>
+                <hr class="hr">
+                <br><br>
+                <p>Praesent elementum nulla non posuere dictum. Suspendisse aliquet quam diam, egestas tristique nibh tempor sed. Ut justo leo, eleifend sit amet ipsum ac, scelerisque mattis nisl.</p>
+                <div class="button buttonend">
+                    <a class="btn" href="# ">
+                        <span>Book Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contactsAll">
+            <div class="contact">
+                <a href="# "><img class="contactIcon" src="https://ru.seaicons.com/wp-content/uploads/2015/10/gym-icon.png" /></a>
+                <p>Maecenas rhoncus ipsum non nisi finibus maximus. In hac habitasse platea dictumst. Aenean purus eros.</p>
+                <h5>Follow Us</h5>
+                <div class="signs">
+                    <div class="sign">
+                        <a href="# "><img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" /></a>
+                    </div>
+                    <div class="sign">
+                        <a href="# "><img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" /></a>
+                    </div>
+                    <div class="sign">
+                        <a href="# "><img class="icon" src="https://cdn-icons-png.flaticon.com/512/174/174883.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h4>Quick Contacts</h4>
+                <div class="quick">
+                    <div class="icons">
+                        <a><img class="icon" src="https://cdn-icons.flaticon.com/png/512/5165/premium/5165235.png?token=exp=1648667595~hmac=f9bef0308a0c2eeea5e3ab6180729c65" />
+                            <p>23, George Washington Street, New York, USA, 09567</p>
+                        </a>
+                    </div>
+                    <div class="icons">
+                        <a><img class="icon" src="https://cdn-icons.flaticon.com/png/512/5585/premium/5585836.png?token=exp=1648667620~hmac=b1ef1423962d9e2a313367eb46af4de0" />
+                            <p>+1 957 652 1268</p>
+                        </a>
+                    </div>
+                    <div class="icons">
+                        <a><img class="icon" src="https://cdn-icons.flaticon.com/png/512/5287/premium/5287740.png?token=exp=1648667645~hmac=2f25e1560fdae28b7ddf5fc7d11a76bd" />
+                            <p>info@shapeup.com</p>
+                        </a>
+                    </div>
+                    <div class="icons">
+                        <a><img class="icon" src="https://cdn-icons-png.flaticon.com/512/929/929464.png" />
+                            <p>www.shapeup.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <h4>Quick Contacts</h4>
+                <div class="boxes">
+                    <a href="#" class="box">Workout</a>
+                    <a href="#" class="box">Spa</a>
+                    <a href="#" class="box">Schedule</a>
+                    <a href="#" class="box">Weightlifing</a>
+                    <a href="#" class="box">Boxing</a>
+                    <a href="#" class="box">Yoga </a>
+                    <a href="#" class="box">Location</a>
+                    <a href="#" class="box">Trainers</a>
+                    <a href="#" class="box">Class</a>
+                    <a href="#" class="box">Equipments</a>
+                    <a href="#" class="box">Nutrition</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menuEnd">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
+
+    <div class="end">Copyright © 2022. All Rights Reserved</div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
+
+</html>
